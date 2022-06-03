@@ -1,0 +1,206 @@
+@media (max-width:1200px){
+    .navigate .content{
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navigate .content .cont{
+        display: flex;
+    }
+    .navigate .content .left,
+    .navigate .content .half{
+        display: none;
+    }
+    .navigate .content .menu .left,
+    .navigate .content .menu .half{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    .navigate .content .menu .half ul{
+        flex-direction: column;
+        padding-right: 15px;
+    }
+    .navigate .content .left .social{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .navigate .content .left .lang{
+        padding-right: 10px;
+        margin-bottom: 25px;
+    }
+    .navigate .content .menu .left .notficate{
+        margin-left: auto;
+    }
+    .header .item .right::before{
+        right: 20px;
+    }
+    .lmsa-pr .dre .row{
+        gap: 93px;
+    }
+}
+@media(min-width:990px) and (max-width:1400px){
+    .lmsa-prod .products .cont .text{
+        right: 0;
+    }
+}
+@media (max-width:990px){
+    .header .item .right::before{
+        right: 80px;
+    }
+    .header .item .left{
+        padding-top: initial;
+    }
+    .size .right button{
+        margin-bottom: 60px;
+    }
+    .size::after{
+        display: none;
+    }
+    .size .left::after{
+        left: 0;
+    }
+    .footer .cont:nth-child(3) h3,
+    .footer .cont:nth-child(4) h3{
+        margin-top: 60px;
+    }
+    .rights .content{
+        gap: 60px;
+    }
+    .lmsa-addr .detect .bottom .one .row{
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+    .lmsa-addr .detect .bottom .one .left{
+        width: 100%;
+    }
+    .lmsa-addr .detect .bottom .one .left iframe{
+        width: 100%;
+    }
+    .lmsa-pr .dre .row{
+        gap: 43px;
+    }
+    .lmsa-cont .contact .row{
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+    .size .right{
+        padding-top: 0;
+    }
+    .size .row{
+        gap: 0;
+    }
+    .lmsa-cloths .landing{
+        padding-top: 60px;
+    }
+    .lmsa-cloths .landing .row{
+        gap: 50px;
+    }
+    .lmsa-addr .footer{
+        margin-top: 0;
+    }
+    .lmsa-addr .visa{
+        margin-bottom: 101px;
+    }
+    .lmsa-who .head .left{
+        padding-top: 45px;
+    }
+    .lmsa-who .why{
+        margin-top: 60px;
+    }
+    .lmsa-who .why .cont{
+        margin-bottom: 0px;
+        max-width: 325px;
+    }
+    .lmsa-pr .dre{
+        margin-bottom: 60px;
+    }
+    .lmsa-cont .contact .left{
+        height: 640px;
+    }
+    .lmsa-cont .contact .right button{
+        margin-bottom: 63px;
+    }
+}
+@media (max-width:770px){
+    .services .content .cont h3{
+        margin-bottom: 45px;
+    }
+    .size .right{
+        padding-top: initial;
+    }
+    .size::before{
+        display: none;
+    }
+    .lmsa-cloths .landing .right button{
+        margin-bottom: 60px;
+    }
+    #loggin,
+    #confirm,
+    #cal,
+    #siz{
+        width: 100%;
+        padding: 40px;
+        height: 100%;
+    }
+    #cal .half .inputs {
+        flex-direction: column;
+        gap: 0;
+    }
+    #cal .bot .images .image{
+        max-width: 251px;
+        max-height: 236px;
+        width: 100%;
+    } 
+    #wid .bot .buttons,
+    #cal .bot .buttons,
+    #siz .buttons{
+        flex-direction: column;
+    }
+    #cal .bot .images .cont .image{
+        width: 150px;
+        height: fit-content;
+    }
+    .lmsa-cont .contact .left .zero{
+        width: 90%;
+    }
+    .lmsa-cont .contact .left .one{
+        left: 30px;
+    }
+    .lmsa-cont .contact .left .two{
+        left: 14px;
+    }
+}
+@media(min-width:560px) and (max-width:770px){
+    .lmsa-prod .products .cont .text{
+        right: 0;
+    }
+}
+@media (max-width:560px){
+    .navigate .content{
+        flex-direction: column;
+    }
+    .header .item .right::before{
+        right: 0;
+    }
+    .rights .content{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .lmsa-who .head .right .a{
+        left: 80px;
+    }
+    .lmsa-who .head .right img{
+        width: 100%;
+    }
+    .lmsa-addr .visa .top{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+    }
+    .lmsa-pr .dre .right .siz{
+        gap: 0;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+}
